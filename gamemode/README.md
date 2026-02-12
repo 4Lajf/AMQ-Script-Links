@@ -16,16 +16,17 @@ Make sure to save your favorite song lists to be able to play them during ranked
 
 ---
 
-- ## <ins>4Lajf's Training Mode</ins>
+- ## <ins>4Lajf's AMQ Plus (AMQ+)</ins>
+The successor of CSL and Training Mode
+A stupidly advanced frontend for custom quiz generation that no one wanted but ~~i hope~~ everyone needed. It consists of two modules, the connector script that actually applies the setting created on the website to AMQ and the website itself.
+It also has a training mode, more info here: https://discord.com/channels/386089398975856641/989576545913933924/1452342562928066602
 
-This script is a superset of Kempanator's Custom Song List Game. Make sure to only have either Training Mode or Custom Song List activated at a time.
+It will function like Anki, meaning that it will apply a weighted system to the songs so that the songs you know less will appear more often along with refreshing your known songs etc.
+But is now way cooler and less shit thanks to moving all of the calculations to my own server rather than in the userscript.
 
-It will function like Anki, meaning that it will apply a weighted system to the songs so that the songs you know less will appear more often.
-
-[More Info](https://github.com/4Lajf/amq-scripts#amqtrainingmodeuserjs-wip) |
-[Download](https://github.com/4Lajf/amq-scripts/raw/main/amqTrainingMode.user.js) |
-[Source Code](https://github.com/4Lajf/amq-scripts/blob/main/amqTrainingMode.user.js)
-
+[Download - Connector Script](https://github.com/4Lajf/amq-scripts/raw/refs/heads/main/amqPlusConnector.user.js) |
+[Source Code - Connector Script](https://github.com/4Lajf/amq-scripts/blob/main/amqPlusConnector.user.js) |
+[Source Code - Website](https://github.com/4Lajf/amq-plus)
 
 ---
 
@@ -54,7 +55,18 @@ A compilation of various commands to perform various actions.
 I invite you to check within the source code to see all the functionalities. It is documented at the beginning of the script.
 
 [Download](https://github.com/nyamu-amq/amq_scripts/raw/master/amqChatCommands.user.js) |
-[Source Code](https://github.com/kempanator/amq-scripts/blob/main/amqMegaCommands.user.js)
+[Source Code](https://github.com/4Lajf/amq-scripts/blob/main/amqBuzzerGamemodeV2.user.js)
+
+---
+- ## <ins>4Lajf's Buzzer Gamemode V2</ins>
+
+A competitive buzzer-style gamemode for Anime Music Quiz where players race to recognize songs first by pressing a buzzer key to mute the audio, then typing their answer.
+- **Scoring**: Points = placement per round (1st=5, 2nd=3, 3rd=2, 4th=1) + speed bonus (based on buzz time, max +1.0 for ≤500ms)
+- **Leaderboards**: Host can toggle per-round fastest leaderboard in chat; final results posted at quiz end
+- **Commands**: `/buzzer` to configure key, `/buzzerround` to toggle leaderboard, `/buzzertime <seconds>` to set time limit
+
+[Download](https://github.com/4Lajf/amq-scripts/raw/refs/heads/main/amqBuzzerGamemodeV2.user.js) |
+[Source Code](https://github.com/4Lajf/amq-scripts/blob/main/amqBuzzerGamemodeV2.user.js)
 
 ---
 
