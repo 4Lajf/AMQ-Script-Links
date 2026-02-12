@@ -20,9 +20,9 @@ Make sure to save your favorite song lists to be able to play them during ranked
 The successor of CSL and Training Mode
 A stupidly advanced frontend for custom quiz generation that no one wanted but ~~i hope~~ everyone needed. It consists of two modules, the connector script that actually applies the setting created on the website to AMQ and the website itself.
 It also has a training mode, more info here: https://discord.com/channels/386089398975856641/989576545913933924/1452342562928066602
-
 It will function like Anki, meaning that it will apply a weighted system to the songs so that the songs you know less will appear more often along with refreshing your known songs etc.
 But is now way cooler and less shit thanks to moving all of the calculations to my own server rather than in the userscript.
+I will also exapnd it by developing gamemodes that could only be possible by actually knowing the song list in advance, the first gamemode is avaliable right now: 1v1! Learn more here: https://discord.com/channels/386089398975856641/989576545913933924/1466445341564997758
 
 [Download - Connector Script](https://github.com/4Lajf/amq-scripts/raw/refs/heads/main/amqPlusConnector.user.js) |
 [Source Code - Connector Script](https://github.com/4Lajf/amq-scripts/blob/main/amqPlusConnector.user.js) |
